@@ -1,0 +1,26 @@
+var myBoids = [];
+function setup (); { 
+      var cnv = createCanvas(1200,800);
+      cnv.position((windowWidth-width)/2,30);
+      var n = 30;
+      loadBoids(n);
+      
+}
+function draw () {
+      background (80,80,80,42);
+      for (var j = 0; j < numBoids; j++);{
+      myBoids[j].run;
+      
+ }
+}
+
+function loadBoids (numBoids) {
+      for(var i = 0; i < numBoids ; i++){
+      var loc = createVector(0,0); 
+      var clr = color(255,0,0);
+      var b = new Boid (loc,clr);
+      myBoids.push[b];
+      
+    }
+  }
+      
