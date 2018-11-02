@@ -1,0 +1,82 @@
+{ "forecast":[  
+    {
+       "code":"11",
+       "date":"01 Nov 2018",
+       "day":"Thu",
+       "high":"54",
+       "low":"48",
+       "text":"Showers"
+    },
+    {
+       "code":"30",
+       "date":"02 Nov 2018",
+       "day":"Fri",
+       "high":"53",
+       "low":"43",
+       "text":"Partly Cloudy"
+    },
+    {
+       "code":"30",
+       "date":"03 Nov 2018",
+       "day":"Sat",
+       "high":"52",
+       "low":"35",
+       "text":"Partly Cloudy"
+    },
+    {
+       "code":"30",
+       "date":"04 Nov 2018",
+       "day":"Sun",
+       "high":"55",
+       "low":"36",
+       "text":"Partly Cloudy"
+    },
+    {
+       "code":"28",
+       "date":"05 Nov 2018",
+       "day":"Mon",
+       "high":"61",
+       "low":"46",
+       "text":"Mostly Cloudy"
+    },
+    {
+       "code":"28",
+       "date":"06 Nov 2018",
+       "day":"Tue",
+       "high":"60",
+       "low":"47",
+       "text":"Mostly Cloudy"
+    },
+    {
+       "code":"39",
+       "date":"07 Nov 2018",
+       "day":"Wed",
+       "high":"60",
+       "low":"51",
+       "text":"Scattered Showers"
+    },
+    {
+       "code":"30",
+       "date":"08 Nov 2018",
+       "day":"Thu",
+       "high":"62",
+       "low":"48",
+       "text":"Partly Cloudy"
+    },
+    {
+       "code":"28",
+       "date":"09 Nov 2018",
+       "day":"Fri",
+       "high":"60",
+       "low":"51",
+       "text":"Mostly Cloudy"
+    },
+    {
+       "code":"28",
+       "date":"10 Nov 2018",
+       "day":"Sat",
+       "high":"61",
+       "low":"49",
+       "text":"Mostly Cloudy"
+    }
+ ]}

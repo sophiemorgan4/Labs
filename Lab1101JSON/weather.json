@@ -1,0 +1,149 @@
+{
+   "query":{
+      "count":1,
+      "created":"2018-11-01T15:26:48Z",
+      "lang":"en-US",
+      "results":{
+         "channel":{
+            "units":{
+               "distance":"mi",
+               "pressure":"in",
+               "speed":"mph",
+               "temperature":"F"
+            },
+            "title":"Yahoo! Weather - Paris, Ile-de-France, FR",
+            "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-615702/",
+            "description":"Yahoo! Weather for Paris, Ile-de-France, FR",
+            "language":"en-us",
+            "lastBuildDate":"Thu, 01 Nov 2018 04:26 PM CET",
+            "ttl":"60",
+            "location":{
+               "city":"Paris",
+               "country":"France",
+               "region":" Ile-de-France"
+            },
+            "wind":{
+               "chill":"50",
+               "direction":"200",
+               "speed":"11"
+            },
+            "atmosphere":{
+               "humidity":"89",
+               "pressure":"1001.0",
+               "rising":"0",
+               "visibility":"14.4"
+            },
+            "astronomy":{
+               "sunrise":"7:38 am",
+               "sunset":"5:29 pm"
+            },
+            "image":{
+               "title":"Yahoo! Weather",
+               "width":"142",
+               "height":"18",
+               "link":"http://weather.yahoo.com",
+               "url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+            },
+            "item":{
+               "title":"Conditions for Paris, Ile-de-France, FR at 03:00 PM CET",
+               "lat":"48.85693",
+               "long":"2.3412",
+               "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-615702/",
+               "pubDate":"Thu, 01 Nov 2018 03:00 PM CET",
+               "condition":{
+                  "code":"11",
+                  "date":"Thu, 01 Nov 2018 03:00 PM CET",
+                  "temp":"52",
+                  "text":"Showers"
+               },
+               "forecast":[  
+                  {
+                     "code":"11",
+                     "date":"01 Nov 2018",
+                     "day":"Thu",
+                     "high":"54",
+                     "low":"48",
+                     "text":"Showers"
+                  },
+                  {
+                     "code":"30",
+                     "date":"02 Nov 2018",
+                     "day":"Fri",
+                     "high":"53",
+                     "low":"43",
+                     "text":"Partly Cloudy"
+                  },
+                  {
+                     "code":"30",
+                     "date":"03 Nov 2018",
+                     "day":"Sat",
+                     "high":"52",
+                     "low":"35",
+                     "text":"Partly Cloudy"
+                  },
+                  {
+                     "code":"30",
+                     "date":"04 Nov 2018",
+                     "day":"Sun",
+                     "high":"55",
+                     "low":"36",
+                     "text":"Partly Cloudy"
+                  },
+                  {
+                     "code":"28",
+                     "date":"05 Nov 2018",
+                     "day":"Mon",
+                     "high":"61",
+                     "low":"46",
+                     "text":"Mostly Cloudy"
+                  },
+                  {
+                     "code":"28",
+                     "date":"06 Nov 2018",
+                     "day":"Tue",
+                     "high":"60",
+                     "low":"47",
+                     "text":"Mostly Cloudy"
+                  },
+                  {
+                     "code":"39",
+                     "date":"07 Nov 2018",
+                     "day":"Wed",
+                     "high":"60",
+                     "low":"51",
+                     "text":"Scattered Showers"
+                  },
+                  {
+                     "code":"30",
+                     "date":"08 Nov 2018",
+                     "day":"Thu",
+                     "high":"62",
+                     "low":"48",
+                     "text":"Partly Cloudy"
+                  },
+                  {
+                     "code":"28",
+                     "date":"09 Nov 2018",
+                     "day":"Fri",
+                     "high":"60",
+                     "low":"51",
+                     "text":"Mostly Cloudy"
+                  },
+                  {
+                     "code":"28",
+                     "date":"10 Nov 2018",
+                     "day":"Sat",
+                     "high":"61",
+                     "low":"49",
+                     "text":"Mostly Cloudy"
+                  }
+               ],
+               "description":"<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/11.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Showers\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Thu - Showers. High: 54Low: 48\n<BR /> Fri - Partly Cloudy. High: 53Low: 43\n<BR /> Sat - Partly Cloudy. High: 52Low: 35\n<BR /> Sun - Partly Cloudy. High: 55Low: 36\n<BR /> Mon - Mostly Cloudy. High: 61Low: 46\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-615702/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n<BR />\n]]>",
+               "guid":{
+                  "isPermaLink":"false"
+               }
+            }
+         }
+      }
+   }
+}
