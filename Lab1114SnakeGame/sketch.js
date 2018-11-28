@@ -1,13 +1,14 @@
 //SOPHIE MORGAN
 //November 14, 2018
 var w = 20;
+var cols, rows;
 var snake;
 var food;
-var segments = [];
+var locX;
+var locY;
 
 //  The setup function function is called once when your program begins
 function setup() {
-  frameRate(10);
   var cnv = createCanvas(800, 800);
   cnv.position((windowWidth-width)/2, 30);
   background(20, 20, 20);
@@ -15,13 +16,18 @@ function setup() {
   var rows = height/w;
   snake = new Snake(createVector(width/2, height/2), createVector(1,0));
   food = new Food();
+  frameRate(10);
 }
 
 //  The draw function is called @ 10 fps
+foodPosition();
 function draw() {
-  Food.render();
-  background(20, 20, 20, 6000);
+  background(5, 5, 5);
   snake.run();
+  food.render(locX, locY);
+  if(snake.loc.x == locX && snake.loc.y == locY){
+    foodPosition();
+  }
 }
 // This function moves the snake based on the key pressed
 function keyPressed(){
@@ -47,11 +53,9 @@ function keyPressed(){
   }
 }
 
-//function cols(){
-//  return floor(width/w);
-
-//function rows(){
-  //return floor(height/w);
-
-//function randomVector(){
-  //return createVector(floor(width/w),floor(height/w));
+function foodPosition(){
+  var randomX = Math.random() * 800;
+  locX = randomX - (randomX%20);
+  var randomY = Math.random() * 800;
+  locY = randomY - (randomY%20);
+}

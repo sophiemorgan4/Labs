@@ -1,20 +1,13 @@
-function Food(){
-  this.vec = createVector().mult(w);
-
-  this.x = function(){
-      return this.vec.x;
-  }
-
-  this.y = function(){
-    return this.vec.y;
-  }
-
-  this.eatd = function(){
-    this.vec = createVector().mult(w);
+function Food(xLocation, yLocation){
+//this.loc = createVector(0, 0);
+this.xLocation = xLocation;
+this.yLocation = yLocation;
+this.run = function(){
+  this.render(this.locX, this.locY);
+}
 
   this.render = function(){
-    fill(255,255,255);
-    rect(this.x(), this.y(), w, w);
+    fill(255,0,0);
+    rect(xLocation, yLocation, w,w);
   }
-  }
-}// End of constructor function
+}// End of Constructor function
