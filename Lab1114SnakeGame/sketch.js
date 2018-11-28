@@ -51,6 +51,19 @@ function keyPressed(){
    snake.vel = createVector(-20, 0);
    snake.loc.add(snake.vel);
   }
+  
+  
+function cols() {
+  return floor(width / scl);
+}
+
+function rows() {
+  return floor(height / scl);
+}
+
+function randomVector() {
+  return createVector(floor(random(cols())), floor(random(rows())));
+}
 }
 
 function foodPosition(){
